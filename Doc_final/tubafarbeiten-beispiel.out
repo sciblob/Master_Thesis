@@ -1,0 +1,27 @@
+\BOOKMARK [1][-]{section*.3}{Symbols}{}% 1
+\BOOKMARK [1][-]{section*.5}{Summary}{}% 2
+\BOOKMARK [1][-]{section*.7}{List of Figures}{}% 3
+\BOOKMARK [1][-]{section*.8}{List of Tables}{}% 4
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 5
+\BOOKMARK [1][-]{section.2}{Basics of melt flow}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{Continous casting process}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.2}{Role of tundish}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Non-metallic inclusions}{subsection.2.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Inclusion removal}{subsection.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.3}{Turbulence inhibitors \(Turbostop\)}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.4}{Flow characteristics in tundish}{section.2}% 12
+\BOOKMARK [1][-]{section.3}{Modelling of the tundish}{}% 13
+\BOOKMARK [2][-]{subsection.3.1}{Preliminary analysis}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.2}{Geometry and mesh}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.3}{Numerical modelling}{section.3}% 16
+\BOOKMARK [1][-]{section.4}{Investigation of model parameters}{}% 17
+\BOOKMARK [2][-]{subsection.4.1}{Flow analysis}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.2}{Variation of filter orientation}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.3}{Variation of particle diameter and number}{section.4}% 20
+\BOOKMARK [1][-]{section.5}{Conclusion and outlook}{}% 21
+\BOOKMARK [1][-]{section*.23}{References}{}% 22
+\BOOKMARK [1][-]{appendix.A}{Appendix: OpenFOAM utility files}{}% 23
+\BOOKMARK [2][-]{subsection.A.1}{kinematicParticleTracksIncompressible.C}{appendix.A}% 24
+\BOOKMARK [2][-]{subsection.A.2}{writeVtkComposite.H}{appendix.A}% 25
+\BOOKMARK [1][-]{appendix.B}{Appendix: OpenFOAM case files}{}% 26
+\BOOKMARK [2][-]{subsection.B.1}{kinematicCloudProperties}{appendix.B}% 27

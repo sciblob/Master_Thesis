@@ -1,0 +1,5 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'tubafarbeiten-beispiel.bib.blg'
+[23] biber:313> INFO - === Di Apr 30, 2019, 11:17:01
+[50] Utils.pm:185> ERROR - Cannot find control file 'tubafarbeiten-beispiel.bib.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[50] Biber.pm:114> INFO - ERRORS: 1

@@ -1,0 +1,36 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.27)  29 OCT 2020 19:57
+entering extended mode
+**myfile
+("C:\Program Files\MiKTeX\tex/latex/tools\.tex"
+LaTeX2e <2020-10-01> patch level 1
+L3 programming layer <2020-10-05> xparse <2020-03-03> File ignored)
+*
+
+! Package inputenc Error: Unicode character  (U+0018)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+<*> 
+     
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+<*> 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+ 
+Here is how much of TeX's memory you used:
+ 18 strings out of 480236
+ 635 string characters out of 2890433
+ 262535 words of memory out of 3000000
+ 16674 multiletter control sequences out of 15000+200000
+ 535088 words of font info for 29 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 13i,0n,15p,87b,14s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

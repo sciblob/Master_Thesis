@@ -1,0 +1,413 @@
+\section{DONT READ BELOW THIS:}
+
+\subsection{Literature}
+
+
+Solution control
+
+Material Properties
+
+Boundary conditions
+
+\begin{center}
+\captionof{table}[List of boundary conditions]{List of boundary conditions} 
+\label{tab:title3}
+\begin{tabular}{ | P{5cm} | P{5cm}| P{5cm}| } 
+\hline
+\textbf{Boundary} & \textbf{Velocity field (U)} & \textbf{Pressure field (p)} \\ 
+\hline
+inlet & 850.000 & 64  \\ 
+\hline
+outlet & 1.200.000 & 68\\		
+\hline
+walltop & 1.500.000 & 67\\
+\hline
+wall/inletwall/outletwall/stopper/turbostop & 1.500.000 & 67\\
+\hline
+\end{tabular}
+\end{center} 
+
+
+[1]
+
+In water model experiments, tundish flows under the
+influence of flow modifying devices are often studied
+with the help of residence time distribution spectra
+instead of more complex optical flow measurements. 3–5
+Residence time distribution is linked to a simplified
+picture of a vessel flow, which is assumed to consist of
+different flow regions (tanks) combined in-line or in
+parallel. Characteristic features of the residence time
+distribution are correlated with these regions, which are
+attributed to plug flow, closed recirculating (dead) and
+back-mixing. 1
+
+Lagrangian equations:
+
+Besides the classical interpretation of the residence time
+distribution spectra, as given in the last subsection, a
+more detailed inspection of the data from the tracer can
+be done. The time dependent information from an
+ensemble of tracer particles is ensemble-averaged at
+different times for this purpose. Such an analysis can
+help to shed light on the fluid flow history in the tundish.
+Figures 6 and 7 show typical results from such evalua-
+tions.
+
+[2]
+
+water model; opetimized fluid flow
+
+take some points from introduction
+
+comclusion: slag NMI, turbulence inhibitor turbostop, 
+
+[3]
+
+Thermal buoyancy analysis. Diff equations.
+No thermal boy at inlet. Its at far wall regions.
+For the
+trajectory calculation of inclusions, the Stochastic model
+yields more accurate inclusion motion than the non-
+Stochastic model. The average residence time of
+inclusions decreases with increasing size. The thermal
+buoyancy favors inclusions removal especially the small
+inclusions. Using solute transport like the dye injection in
+water model and copper addition in the real steel tundish
+cannot accurately study the motion of the inclusions. In the
+simulation, more than 68 inclusions bigger than 10$\mu$m
+are removed to the top, and less than 32 enters the mold
+which is larger than the industrial measurement.
+
+Though some researchers investigated the steel cleanliness
+in the tundish through industrial trials 1-6) , the operation
+conditions in steel plants, such as the high temperature, the
+visual opacity of the molten steel, and the massive size of
+industrial tundishes, hint serious problems for any direct
+and elaborate industrial experimental investigations of the
+fluid flow phenomena in tundishes. On the other hand,
+though the kinematic viscosity of steel is almost equal to
+that of water, the fluid flow study through water models 5,
+7-20)
+also need to be further proved before using to
+industrial designs due to the following unclear issues:
+
+Consequently, the numerical simulation becomes a
+reasonable alternative to investigate the metal flow in the
+tundish and to design the tundish 21-25) . The numerical
+simulations of the hydrodynamic phenomena in tundishes
+include the single phase turbulent fluid flow, multiphase
+fluid flow if gas injected from ladle shroud or tundish soft-
+bubbling, residence time distribution, inclusion growth,
+motion and removal, mixing and grade transition, thermal
+energy transport, or vortexing formation at the start and
+the end of casting. Flow optimization in the tundish can be
+achieved through the tundish shape, and flow control
+devices such as turbulence inhibitors, impact pads, baffles,
+weirs and dams. Each tundish is designed in a way as to
+realize an optimal flow and therefore higher cleanliness of
+the steel by providing 1high average residence time, 2
+small severe turbulence, dead and short-circuit volumes,
+3 large volume of laminar flow region, 4 forced
+coagulation in suitable turbulent zones and floating of
+inclusions, assimilated by cover slag, 5avoiding “open
+(red) eye” creating uncovered surface of molten steel
+against air absorption.
+
+In the tundish, the
+inclusion sources are: deoxidation products, ladle lining
+erosion product and entrainment of ladle slag (including reoxidation products by SiO 2 , FeO and MnO in slag)
+carried over from the ladle; entrainment of the tundish slag
+by the excessive top surface level fluctuation especially at
+the inlet zone; reoxidation by air in tundish; precipitation
+of inclusions at lower temperature, such as TiO 2
+inclusions; erosion of the tundish lining. On the other hand, inclusions can be removed by
+following mechanisms: buoyancy rising and absorption to
+the top slag; fluid flow transport; argon gas bubble
+flotation; inclusion growth by collision and Ostwald-
+Ripening and floation; inclusion absorption to lining
+refractories.
+The final inclusion destination includes the top slag, the
+lining (safe removal) and mold (possible defects in slab if
+not be removed in the mold).
+The purpose of fluid flow optimization in the tundish is to
+achieve the best flow pattern to remove inclusions from
+the molten steel. Hence it is more important to predict the
+inclusion motion in the tundish than the fluid flow
+simulation itself.
+
+[6]
+
+Take image. 
+
+Slag filteration. However the results obtained with the UDF function
+shows better agreement with experimental investigations performed
+with water models and at industrial conditions, which show that
+inclusions in a range up to 10-20 microm are almost not separated in
+the tundish and flowing out to the mould.
+
+Modern equipment for continuous casting of steel are
+designed to provide the best possible casting operating conditions.
+In practice this means that certain grade of steel is cast in the
+longest possible sequences, and change of steel grades are
+planned together with the exchange of tundish. Therefore, the
+tundish plays an important role in the continuous casting of steel.
+It performs several important functions. It provides uniform
+distribution of steel to the individual strands and maintains the
+desired casting speed. It keeps the temperature on the same level
+and protects it from excessive cooling. Current tendency is the
+full use of the tundish for the disposal of non-metallic inclusions.
+Improving the casting conditions, one can enhance the processes
+of separation and flotation of inclusions. The most common way
+of using it for this purpose, is to put inside the tundish one of the
+flow control devices (FCD) [5-7]. 
+
+Own boundary condition provides critical velocity of the
+fluid. This critical velocity decides if particle stays at the surface
+or is reflected and re-enter the fluid. The velocity of the fluid in
+each cell at the boundary (where particle reach the surface)
+is compared with the critical velocity. In case if the flow velocity
+is lower than the critical velocity the particle is trapped, otherwise
+it is reflected.
+
+[8]
+
+Continous casting process explained. background of CC.
+
+The continuous casting process is not a very old manufacturing process, but in the last
+four decades, it became the most common process for producing most basic metals.
+One of the particular important components in this system is the tundish.
+Traditionally, the tundish acted as a reservoir between the ladle and the mould but
+more recently it has been used a grade separator, an inclusion removal device and a
+metallurgical reactor.
+A continuous drive to understand the molten metal flow
+patterns inside the tundish has led to many research papers being published in the
+modelling of the flow patterns, through either water modelling or numerical
+modelling. Included in these papers, researchers changed the design of the tundish by
+adding tundish furniture or changing the dimensions of the tundish. They showed that
+these changes can improve the flow patterns that ultimately improve the performance
+of the tundish. These changes were however based on trial-and-error experimentation
+or relied on the experience of the modeller to propose the design changes. This type
+of design methodology can lead to non-optimal solutions.
+
+[9]
+
+Each tundish is designed in a way as to provide an
+optimal flow and therefore higher cleanliness of cast steel.
+Tundish inside configuration should provide [2]:
+as high a value of average retention time as possible,
+minimum turbulence and dead and short-circuit volumes,
+maximum space for laminar flow of molten steel,
+forced coagulation and flotation of non-metallic inclu-
+sions, assimilated by cover slag,
+
+[10]
+
+There is scientific agreement on tundish perfor-
+mance improvement on incorporating a turbulence inhi-
+bitor box or turbostop, but also a dearth of commentary on
+the principles of its design. Industrial practice often
+employs incredible detail and customization into these
+devices, in parts due to this lack of perspective.
+
+Typical objectives of tundish are inclusion separation,
+thermochemical modification and homogenization, and
+reducing exposure of bulk volume to thermal and compo-
+sitional shock during grade transitions or ladle changeover,
+thus ensuring efficient operation of downstream casting
+assembly. In order to ensure fine degree of control over
+composition and cleanliness of solidification product, flow
+control devices (FCDs) such as weir, dam and pouring box
+are frequently inlayed in tundishes to influence bulk flow
+characteristics to favor inclusion removal.
+Operational agenda and factors like inclusion distribu-
+tion and throughput rate heavily influence decisions
+regarding flow modification. However, speaking generally,
+a good assessment of inclusion removal efficiency, espe-
+cially for larger size inclusions (40 microns or greater) [1],
+can be found through the analysis of Residence Time
+Distribution (RTD), which characterize flow and mixing in
+a tundish [1]. In a related study by the current authors, a
+good correspondence has been observed between the two
+for water model as well as industrial systems [2].
+Defined as the time spent by an incoming fluid element
+in the tundish volume, the frequency distribution of resi-
+dence time can be obtained by injecting tracer at the inlet
+(continuously or as a pulse) and tracking it at the outlet [1].
+The key parameters which characterize the ‘C-curves’ so
+obtained are, namely the minimum breakthrough time, t min
+(normalized as h min ), when the tracer concentration is first
+detected at the outlet; time to attain peak tracer concen-
+tration, t peak (or h peak ); and t av (or h av ), the mean residence
+time for the distribution
+
+tapered turbostop better than straight one.
+
+[11]
+
+increment of residence time. 
+
+take image of turbostop.
+
+(4) The effect of the round turbulence inhibitor on the flow
+characteristic of liquid steel in the impact zone is very obvious.
+It can improve the mixing capacity of liquid steel, promote the
+collision, growth and removal of nonmetallic inclusions and the
+homogenization of liquid steel temperature and composition,
+and prevent the erosion of high velocity liquid steel stream to
+the tundish lining in the impact zone.
+(5) The combination of the optimal baffle and round
+turbulence inhibitor can improve the flow field and temperature
+field in the whole tundish effectively. Especially, flow
+characteristic in the farther strand of the tundish is improved and
+the difference in flow characteristics between multiple strands
+is also smaller. It is worth restating that when optimizing the
+whole performance of multi-strand tundish, not only the flow
+characteristic of each strand but also the difference of flow
+characteristics between multiple strands should be considered
+
+[13]
+
+Isothermal and non-isothermal flows. An inspection of
+the isothermal and non-isothermal flow shows that there
+are only small differences between these cases for all in-
+vestigated tundishes. Therefore, thermal natural convection
+does not playa significant role in these tundish flows. In
+detail, the temperature difference from the inlet nozzle to
+the outlet nozzle is about 8 - 10K for all configurations.
+This result differs significantly from the findings of other
+authors, i.e. Joo and Guthrie [15]. They have reported a
+temperature difference of about 16 K for a twin-slab tun-
+dish under similar conditions. They also report a noticeable
+influence of the thermal natural convection in the non-
+isothermal flows. It must be noticed that their model is
+based on an energy transport equation with a fixed turbu-
+lent Prandtl number.
+
+[14]
+
+take image.
+
+[16]
+
+The tundish plays a key role in the process of continuous steel casting (CSC), as it ensures a stable
+inflow of steel to the mould. Slabs formed in this process should exhibit the required quality, which is
+determined by tundish operation, among other factors. The quality of a slabs is determined primarily
+by the steel overheating temperature and the level of impurities in the form of non-metallic inclusions
+(NMIs) and gases. The impurity level prescribed for a given steel grade is achieved during refining in the
+ladle furnace. While the tundish should either maintain or reduce the impurity level achieved in the ladle
+furnace. Therefore, particular attention is paid to the behavior of the tundish powder and the ceramic
+tundish working layer, which may cause the formation of additional non-metallic inclusions. Advanced
+tundish stations are equipped with plasma reheating or circulatory degassing installations [1,2]. While
+as standard, tundishes are furnished with flow control devices (FCD), NMI flotation intensifying or
+chemical and thermal homogenization enhancing devices. Classic flow control devices include dams,
+weirs, subflux turbulence controllers (STC), or argon curtains [3–14]. Often, tundishes are equipped
+with ceramic filters, or special chambers to induce rotary motion [15,16]. To modify the liquid steel
+motion in a contactless manner, electromagnetic stirring is used [17–19]. One of the most common
+FCDs is a STC installed in the pouring zone. The main purpose of the STC is to suppress the turbulent
+flow beyond the tundish pouring zone. The STC is a device in the form of a flanged box. The internal
+working part of the STC is formed by walls that often have a varying angle of inclination relative to
+the STC bottom. As standard, an STC is installed in the axis of the feeding stream flowing out of the
+steelmaking ladle.
+
+[17]
+
+tundish and RTD imaage; water model image.
+
+Tundish is a flow reactor, which is equipped with dif-
+ferent flow control devices such as: baffles, notches, dams,
+impact pads, gaseous-permeable membranes or filters [1-4].
+Today the most commonly used equipment of tundish seem
+to be turbulence inhibitors, also called subflux controllers of
+turbulence. Such devices are positioned in the axis of steel
+flux flowing into tundish. Turbulence inhibitors have different
+shapes; however their size and configuration of external walls
+have the essential meaning on the shaping of steel flow.
+The devices mentioned above definitely influence flowing
+conditions in the working zone of a tundish. As a consequence
+they also influence the quality of obtained continuous casting
+ingot. In general the type, size and fitting place of the flow
+control device is chosen individually for a given tundish.
+
+Applying turbulence inhibitor limits the dynamics of steel
+flux coming into tundish, then the flow of steel becomes
+more uniform (lower profile of velocity). It gives better
+control over the steel flow.
+Turbulence inhibitors have beneficial influence on dura-
+bility of refractory lining in near-inlet zone, therefore the
+consumption of such lining during the process of filling
+the tundish with liquid steel is lower.
+Comparing with the tundish without impact pads, appli-
+cation of the turbulence inhibitor makes the liquid steel
+better mixed. This improvement is based on increasing the
+dynamics of liquid steel mixing, so then the zone of inten-
+sive mixing is also bigger. Such situation favours floating
+the nonmetallic inclusions to the slag and their absorp-
+tion. This concerns all analyzed variants of turbulence
+inhibitors.
+Applying turbulence inhibitors decrease the percentage
+participation of dead zones (see Figure 8). However, it is not possible to eliminate them. Areas most susceptible
+to this flow disturbance are the ones near back wall of the
+tundish in a near-slag zone.
+Turbulence inhibitors influence shaping the zone of inten-
+sive mixing, but forming the zone of dispersed plug in
+a channel part of the tundish is rather difficult. This is
+caused by the movement of liquid downwards after be-
+ing reflected from the slag. However, the time the tracer
+reaches particular outlets is rather similar. So, it can be
+assumed that the course of casting process will be correct.
+The shape of turbulence inhibitor (square – variant A or
+round – variant D) does not influence the kinetics of steel
+mixing and also the ratio of percentage participation of
+particular flow volume in the tundish (Table 1, Fig. 8).
+Formation of inner space of turbulence inhibitor influences
+the flow and kinetics of steel mixing and also the ratio of
+percentage participation of particular flow volume in the
+tundish (Table 1, Fig. 8).
+According to the rule concerning the correctly modernized
+tundish, which says that to improve the refining capacity
+of a tundish the dead zone should be minimized and the
+dispersed plug flow volume should be increased even at
+the cost of well mixed flow volume, the most effective
+seems to be geometry of turbulence inhibitor variant D.
+
+[18]
+
+first 22 pages.
+
+[20]
+
+continous casting process.
+
+[21]
+
+first 14 pages. 
+
+[23]
+
+The aperture ratio f3 of the
+turbo-stopper, defined as the ratio of shroud diameter to
+turbo-stopper outlet diameter, should be small and the
+opening angle a should be large. This causes a high up-
+ward stream out of the turbo-stopper and an intensive
+shear layer formation.
+
+\pagebreak
+
+\subsection{Implementation}
+
+\[ \frac{\partial u}{\partial t}
+   = h^2 \left( \frac{\partial^2 u}{\partial x^2}
+      + \frac{\partial^2 u}{\partial y^2}
+      + \frac{\partial^2 u}{\partial z^2} \right) \]
+
+\[
+\dv{Q}{t} = \dv{s}{t}  \quad
+\dv[n]{Q}{t} = \dv[n]{s}{t}  \quad
+\pdv{Q}{t} = \pdv{s}{t}  \quad
+\pdv[n]{Q}{t} = \pdv[n]{s}{t}  \quad
+\pdv{Q}{x}{t} = \pdv{s}{x}{t}  \quad
+\]
+\[
+\fdv{F}{g}
+\]
